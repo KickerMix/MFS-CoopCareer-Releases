@@ -1,2 +1,21 @@
-# MFS-CoopCareer-Releases
-Official binary releases and update manifests for MFS CoopCareer
+# MFS CoopCareer Releases
+
+Публичное хранилище официальных Windows-сборок и манифестов обновления MFS CoopCareer. Исходный код проекта находится в отдельном приватном репозитории и здесь не публикуется.
+
+## Установка
+
+1. Откройте [последний стабильный Release](https://github.com/KickerMix/MFS-CoopCareer-Releases/releases/latest).
+2. Скачайте полный архив `MFS-CoopCareer-VERSION-win-x64.zip`.
+3. Полностью закройте Microsoft Flight Simulator 2024.
+4. Распакуйте архив в обычную папку и следуйте `README_RU.txt`.
+
+Начиная с версии 1.9.0, дальнейшие стабильные обновления проверяются и устанавливаются непосредственно из компаньона. Архивы `Companion`, `Server` и `Community` являются компонентами встроенного updater и для обычной чистой установки по отдельности не нужны.
+
+## Проверка файлов
+
+- `RELEASE-SHA256SUMS.txt` содержит SHA-256 всех опубликованных компонентов.
+- `MFS-CoopCareer-VERSION-win-x64.zip.sha256` проверяет полный переносимый архив.
+- `update-manifest.json` используется компаньоном и содержит размеры и SHA-256 компонентных архивов.
+- Published Releases защищены политикой GitHub Immutable Releases: вложения и соответствующий tag нельзя незаметно заменить.
+
+Не скачивайте сборки из перепакованных сторонних источников.
